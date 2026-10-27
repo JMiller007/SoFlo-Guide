@@ -67,3 +67,27 @@
 .reef-layout .profile-hero{grid-template-columns:1.25fr .75fr;border-radius:12px 50px 12px 50px;background-image:radial-gradient(ellipse at 82% 100%,#a9d9d855 0 18%,transparent 19%),linear-gradient(130deg,#fff,#e5f3f3)}
 .reef-layout .service-card:nth-child(odd){transform:translateY(5px)}
 @media(max-width:760px){.civic-layout .profile-hero{background:linear-gradient(160deg,#173e38 0%,#214c43 73%,#eaf3ed 73%)}.ranch-layout .hero-art{border-left:0;border-top:1px dashed #a8a184}.coast-layout .hero-art,.grove-layout .hero-art{transform:none}.reef-layout .service-card:nth-child(odd){transform:none}}
+
+/* Distinct local identities for this profile batch */
+.profile-theme-deco{--tint:#f6ece6;--deep:#56352f}.profile-theme-homestead{--tint:#f3ede1;--deep:#53432f}.profile-theme-doral{--tint:#e7f2f6;--deep:#153f55}.profile-theme-orchid{--tint:#f4eaf3;--deep:#482b4d}.profile-theme-life{--tint:#eeecf6;--deep:#332d51}.profile-theme-greenway{--tint:#e9f0e9;--deep:#263f33}.profile-theme-nomi{--tint:#e9f2f5;--deep:#173c50}.profile-theme-bluewave{--tint:#eaf2f7;--deep:#173a57}
+.deco-layout .profile-hero{border-radius:8px 44px 8px 44px;background-image:repeating-linear-gradient(90deg,transparent 0 23px,#ba725c0c 23px 25px),linear-gradient(120deg,#fff,#f7e9df)}
+.deco-layout .art-orbit{width:206px;height:206px;border:7px double #ba725c66;box-shadow:0 0 0 19px #ba725c13,0 0 0 42px #ba725c09}
+.deco-layout .service-card{border-radius:6px 18px 6px 18px}
+.homestead-layout .profile-hero{grid-template-columns:1.2fr .8fr;border-radius:28px 28px 28px 6px;background-image:linear-gradient(160deg,#fff 0 62%,#f3e5ce 62%)}
+.homestead-layout .hero-art{background:repeating-linear-gradient(0deg,transparent 0 22px,#8b653810 22px 23px),radial-gradient(ellipse at center,#e2c493 0 24%,transparent 25%)}
+.homestead-layout .local-brief{background:#544936;border-radius:28px 6px 28px 6px}
+.doral-layout .profile-hero{background-color:#e7f2f6;background-image:linear-gradient(#287f9b0b 1px,transparent 1px),linear-gradient(90deg,#287f9b0b 1px,transparent 1px),linear-gradient(120deg,#fff,#e7f2f6);background-size:23px 23px,23px 23px,auto;border-radius:12px}
+.doral-layout .service-card{border-left:4px solid var(--accent);border-radius:4px 14px 14px 4px}
+.orchid-layout .profile-hero{grid-template-columns:1fr 285px;border-radius:26px;background:linear-gradient(115deg,#fff 0 65%,#f4eaf3 65%);border-bottom:5px solid var(--accent)}
+.orchid-layout .hero-art{border-radius:50%;background:radial-gradient(circle,#fff 0 48%,#e5c9e2 49% 56%,transparent 57%)}
+.life-layout .profile-hero{grid-template-columns:1.25fr .75fr;border-radius:60px 12px 60px 12px;background-image:linear-gradient(110deg,#fff 0 57%,#eeecf6 57% 100%)}
+.life-layout .local-brief{border-radius:12px 36px 12px 36px;background:#342e52}
+.greenway-layout .profile-hero{grid-template-columns:1.35fr .65fr;border-radius:20px 72px 20px 20px;background-image:radial-gradient(ellipse at 95% 100%,#b5ceb355 0 23%,transparent 24%),linear-gradient(135deg,#fff,#e9f0e9)}
+.greenway-layout .hero-art{border-radius:48% 48% 12% 48%;background:linear-gradient(135deg,#dce9db,#b4cfb9)}
+.greenway-layout .service-card{border-radius:20px 5px 20px 5px}
+.nomi-layout .profile-hero{grid-template-columns:1.15fr .85fr;border-radius:4px 44px 4px 44px;background-image:linear-gradient(145deg,#fff 0 63%,#dbeaf0 63%);border-left:7px solid var(--accent)}
+.nomi-layout .hero-art{transform:scale(.91);border:1px solid #9fc4d0;border-radius:22px 22px 70px 22px}
+.bluewave-layout .profile-hero{border-radius:30px 30px 7px 30px;background-image:radial-gradient(ellipse at 90% 120%,#9fc8da 0 21%,transparent 22%),linear-gradient(120deg,#fff,#eaf2f7)}
+.bluewave-layout .art-orbit{border-style:dashed}
+.bluewave-layout .service-card:nth-child(2n){border-radius:20px 5px 20px 5px}
+@media(max-width:760px){.homestead-layout .profile-hero,.orchid-layout .profile-hero,.greenway-layout .profile-hero,.nomi-layout .profile-hero{grid-template-columns:1fr}.life-layout .profile-hero{background:linear-gradient(160deg,#fff 0 64%,#eeecf6 64%)}.doral-layout .profile-hero{background-size:18px 18px,18px 18px,auto}.nomi-layout .hero-art{transform:none}}
