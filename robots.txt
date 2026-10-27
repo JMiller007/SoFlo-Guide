@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://soflo-guide.pages.dev/sitemap.xml
